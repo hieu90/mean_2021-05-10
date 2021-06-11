@@ -9,5 +9,5 @@ app.get('/server', (req,res)=>{
 })
 
 app.listen(3000, ()=>{
-    console.log('Server Opened!');
+    console.log('Server Opened OK!');
 });
