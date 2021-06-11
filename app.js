@@ -4,7 +4,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.get('/server', (req,res)=>{
-    main = 'hello';
+    var main = 'hello/main';
     res.render('index', {main});
 })
 
